@@ -19,4 +19,16 @@ public class Triangle extends Polygon {
 
         return Math.sqrt(halfPerimetr * (halfPerimetr - sides[0]) * (halfPerimetr - sides[1]) * (halfPerimetr - sides[2]));
     }
+
+    public int getFirstSide() {
+        return sides[0];
+    }
+
+    public int getSecondSide() {
+        return sides[1];
+    }
+
+    public int getThirdSide() {
+        return sides[2];
+    }
 }
